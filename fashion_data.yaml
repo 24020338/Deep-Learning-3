@@ -1,0 +1,18 @@
+path: /home/beef/Downloads/karaoke-k-klassificatie-2026/Deep-Learning-3  # Het hoofdpad van je project
+train: train.txt       # Verwijst naar het zojuist gemaakte train-tekstbestand
+val: val.txt           # Verwijst naar het zojuist gemaakte val-tekstbestand
+test: Test/images      # Map met de testfoto's voor je Kaggle submission
+
+nc: 10
+
+names:
+  0: sunglass
+  1: hat
+  2: jacket
+  3: shirt
+  4: pants
+  5: shorts
+  6: skirt
+  7: dress
+  8: bag
+  9: shoe
