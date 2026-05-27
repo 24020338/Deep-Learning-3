@@ -1,6 +1,6 @@
-path: /home/beef/Documents/GitHub/Deep-Learning-3  # Het hoofdpad van je project
-train: train.txt       # Verwijst naar het zojuist gemaakte train-tekstbestand
-val: val.txt           # Verwijst naar het zojuist gemaakte val-tekstbestand
+path: /home/beef/Downloads/karaoke-k-klassificatie-2026/Deep-Learning-3  # Het hoofdpad van je project
+train: train.txt       # Verwijst naar train-tekstbestand
+val: val.txt           # Verwijst naar val-tekstbestand
 test: Test/images      # Map met de testfoto's voor je Kaggle submission
 
 nc: 10
