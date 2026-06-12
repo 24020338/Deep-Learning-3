@@ -2,7 +2,10 @@
   "alora_invocation_tokens": null,
   "alpha_pattern": {},
   "arrow_config": null,
-  "auto_mapping": null,
+  "auto_mapping": {
+    "base_model_class": "BlipForConditionalGeneration",
+    "parent_library": "transformers.models.blip.modeling_blip"
+  },
   "base_model_name_or_path": "Salesforce/blip-image-captioning-base",
   "bias": "none",
   "corda_config": null,
@@ -31,12 +34,12 @@
   "revision": null,
   "target_modules": [
     "key",
-    "query",
     "output.dense",
+    "query",
     "value"
   ],
   "target_parameters": null,
-  "task_type": "CAUSAL_LM",
+  "task_type": null,
   "trainable_token_indices": null,
   "use_bdlora": null,
   "use_dora": false,
