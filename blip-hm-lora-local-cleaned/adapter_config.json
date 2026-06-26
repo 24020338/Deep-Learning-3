@@ -33,10 +33,10 @@
   "rank_pattern": {},
   "revision": null,
   "target_modules": [
-    "key",
     "output.dense",
-    "value",
-    "query"
+    "query",
+    "key",
+    "value"
   ],
   "target_parameters": null,
   "task_type": null,
